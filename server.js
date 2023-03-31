@@ -1,6 +1,11 @@
-const express = require("express");
-const { join } = require("path");
+import path from 'path';
+import { join } from 'path';
+import { fileURLToPath } from 'url';
+import express from 'express';
 const app = express();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+//const join = path.join
 
 // Serve static assets from the /public folder
 app.use(express.static(join(__dirname, "public")));

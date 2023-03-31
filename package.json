@@ -1,9 +1,11 @@
 {
   "dependencies": {
     "@auth0/auth0-spa-js": "^2.0.4",
-    "@magic-ext/oauth": "^10.0.0",
+    "@magic-ext/oauth": "^10.0.1",
+    "@magic-ext/oidc": "^1.0.1",
+    "cjs-module": "^1.5.0",
     "express": "^4.18.2",
-    "magic-sdk": "^16.0.0"
+    "magic-sdk": "^16.0.1"
   },
   "name": "myapp",
   "version": "1.0.0",

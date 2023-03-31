@@ -1,4 +1,3 @@
-
 let auth0Client = null;
 // ..
 
@@ -69,6 +68,7 @@ const logout = () => {
 };
 
 // Initialize Magic Instance
+import { OpenIdExtension } from "@magic-ext/oidc"
 const magicClient = new Magic('pk_live_CC508AE07CC19E8F', {
       extensions: [
         new OpenIdExtension(),

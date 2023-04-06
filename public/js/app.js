@@ -68,17 +68,16 @@ const logout = () => {
 };
 
 // Initialize Magic Instance
+
 const magicClient = new Magic('pk_live_CC508AE07CC19E8F', {
       extensions: [
-        new OpenIdExtension(),
+        new MagicOpenIdConnectExtension(),
       ]
     });
     magicClient.openid.loginWithOIDC({
-      jwt: oidcJwt,
+      //jwt: oidcJwt,
       providerId: "IisxMokNajXzQDjiKGKU2g02Z73wNRWKUq61lRL6zU8="
     });
-
-
 
 
 

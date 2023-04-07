@@ -75,6 +75,8 @@ const magicClient = new Magic('pk_live_CC508AE07CC19E8F', {
       providerId: "IisxMokNajXzQDjiKGKU2g02Z73wNRWKUq61lRL6zU8="
     });
 
+// Get Id Token
+  //  const idToken = await magicClient.user.getIdToken();
 
   } else {
     document.getElementById("gated-content").classList.add("hidden");

@@ -18,3 +18,7 @@ Note: I am using CDNs
 ```
 npm install && npm start
 ````
+### Results
+
+* Access Token Displayed
+* auth.magic.link cookies

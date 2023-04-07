@@ -9,6 +9,7 @@ Magic.io's Wallet Services feature uses the OISC Oauth extension to facilitate t
 * Auth0 SPA SDK
 * Magic SDK
 * Magic OIDC
+
 Note: I am using CDNs
 
 ### Installing and Executing 

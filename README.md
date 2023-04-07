@@ -6,14 +6,14 @@ Magic.io's Wallet Services feature uses the OISC Oauth extension to facilitate t
 
 ### Dependencies
 
-*npm
-*Auth0 SPA SDK
-*Magic SDK
-*Magic OIDC
+* Auth0 SPA SDK
+* Magic SDK
+* Magic OIDC
+Note: I am using CDNs
 
 ### Installing and Executing 
 
-*Download or clone the repo
+* Download or clone the repo
 ```
 npm install && npm start
 ````
